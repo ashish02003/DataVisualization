@@ -48,58 +48,60 @@ A full-stack web application for uploading, visualizing, and analyzing data from
 
 🔧 Installation & Setup
 
-1. Clone the Repository
-git clone https://github.com/ashish02003/DataVisualization
+ 1. Clone the Repository
+ git clone https://github.com/ashish02003/DataVisualization
 
  cd data-viz-dashboard
 
-2. Backend Setup
+ 2. Backend Setup
    
-# Navigate to backend directory
+
   
-cd backend
+ cd backend
 
-npm install
+ npm install
 
-mkdir uploads
+ mkdir uploads
 
-# Create .env file inside the backend folder
+ # Create .env file inside the backend folder
 
-Add the following to your backend/.env file:
+ Add the following to your backend/.env file:
 
-NODE_ENV=development
+ NODE_ENV=development
 
-PORT=5000
+ PORT=5000
 
-MONGO_URI=your_mongo_URI
+ MONGO_URI=your_mongo_URI
 
-JWT_SECRET=your_JWT_SECRET
+ JWT_SECRET=your_JWT_SECRET
 
-FRONTEND_URL=http://localhost:5173
+ FRONTEND_URL=http://localhost:5173
 
-MAX_FILE_SIZE=10485760
+ MAX_FILE_SIZE=10485760
 
-3. Frontend Setup
+ 3. Frontend Setup
    
-cd frontend
+ cd frontend
 
-npm install
-# Create .env file
-Add the following to your frontend/.env file:
+ npm install
+ # Create .env file
+ Add the following to your frontend/.env file:
 
-VITE_API_URL=http://localhost:5000
+ VITE_API_URL=http://localhost:5000
 
-4. Run the Application
-Terminal 1 - Backend:
+ 4. Run the Application
+    
+ Terminal 1 - Backend:
 
-cd backend
+ cd backend
 
-npm run dev
+ npm run dev
 
 Server will start at http://localhost:5000
 
-Terminal 2 - Frontend:
-cd frontend
+ Terminal 2 - Frontend:
+ 
+ cd frontend
 
 npm run dev
 
