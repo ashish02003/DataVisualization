@@ -47,13 +47,12 @@ A full-stack web application for uploading, visualizing, and analyzing data from
 ⚡ Vite for lightning-fast builds
 
 🔧 Installation & Setup
-
- 1. Clone the Repository
+1. Clone the Repository
  git clone https://github.com/ashish02003/DataVisualization
 
  cd data-viz-dashboard
 
- 2. Backend Setup
+2. Backend Setup
    
 
   
