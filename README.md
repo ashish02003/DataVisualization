@@ -51,8 +51,8 @@ A full-stack web application for uploading, visualizing, and analyzing data from
  git clone https://github.com/ashish02003/DataVisualization
 
  cd data-viz-dashboard
-
-2. Backend Setup
+ 
+ 2. Backend Setup
    
 
   
