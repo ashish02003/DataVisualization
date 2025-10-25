@@ -4,6 +4,7 @@ import { useAuth } from '../../context/AuthContext';
 import { getDatasets, deleteDataset } from '../../services/api';
 import { useNavigate } from 'react-router-dom';
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 export default function Dashboard() {
   const [datasets, setDatasets] = useState([]);
@@ -44,7 +45,7 @@ export default function Dashboard() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between items-center h-16">
             <div className="flex items-center">
-              <h1 className="text-2xl font-bold text-slate-800 cursor-pointer">DataViz Dashboard</h1>
+              <Link to="/"><h1 className="text-2xl font-bold text-slate-800 cursor-pointer">DataViz Dashboard</h1></Link>
             </div>
             <div className="flex items-center gap-4">
               <span className="text-gray-700">Welcome, {user?.fullName}</span>
